@@ -49,8 +49,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #222;
+  background-color: #222222b3;
   background-blend-mode: soft-light;
+  transition:all 0.5s ease-in-out;
+}
+.box:hover{
+  background-color: #6e6e6e11;
+  background-position: center;
+  cursor: pointer;
 }
 
 /* Utility Class*/
