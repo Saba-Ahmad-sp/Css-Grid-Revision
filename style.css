@@ -66,3 +66,21 @@ body {
 .col-2{
   grid-column: span 2;
 }
+
+/* media query for width <= 1024px */
+
+@media screen and (max-width: 1024px /*or width <= 1024px */){
+ .container {
+  flex-direction: column;
+  
+ }
+ .gallery{
+  width: 80%;
+  grid-auto-rows: 220px;
+  gap: 10px;
+ }
+ .box{
+  grid-row: span 1;
+  grid-column: span 3;
+ }
+}
